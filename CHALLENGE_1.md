@@ -30,13 +30,19 @@ directory `~/`
 
 ##### Flag 4 - hidden
 The next flag is stored in a hidden file in the **hidden** directory.
+Some helpful hints:
+* `pwd` will show you what directory you are currently in
+* `cd ../` will change directory one level up
+* `cd ~` will go back to your home directory ('/home/airmanjoe')
 ###### Helpful commands
 `cd, ls, cat, file, find`
 
 ##### Flag 5 - execute
 This flag is output when you run the **execute_me** program in the home directory.
+Hint: executing programs from your home directory is a little different, you
+need to tell linux *where* the program is...
 ###### Helpful commands
-`cd, ls, cat, file`
+`cd, ls, cat, file, ./`
 
 ##### Flag 6 - A History Lesson
 Do you know your **history**?  Check and see if you can find who helped King 
@@ -75,5 +81,4 @@ listening to 7800 too, you just may need to wait a minute before you can hear
 him...
 ###### Helpful commands
 `nc`
-
 

@@ -3,27 +3,32 @@
 ### Rules
 
 1. Nothing illegal
-2. Stay inside the battle space (10.0.0.0/24)
-3. Do not interfere with other students connecting to the battle space
-4. If you have questions about any of the above, ask your mentor (or room monitor)
-5. Have fun!
+2. If you have any questions, ask!
+3. Have fun!
 
 ### Getting started
 
 1. Get your battle space IP address from one of your room's mentors.
-2. Launch bash for windows by first holding down the windows key and hitting R
+2. Launch bash for windows by first typing *WindowsKey + R*
 3. Type `cmd` into the windows run prompt that comes up and hit enter to launch the windows command prompt
 4. Type `bash` into the cmd prompt and then Enter to launch bash for windows
 5. Type `cd ~` then Enter to Change Directory (cd) into your home directory (~)
 6. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
-   `wget https://raw.githubusercontent.com/cyber-raider/aircamp19/master/airmanjoe.key`
+   ```
+   wget https://raw.githubusercontent.com/cyber-raider/aircamp19/master/airmanjoe.key
+   ```
 7. SSH keys wont be trusted if they dont have the correct permissions.  
-   Change yours with `chmod 600 airmanjoe.key`
+   Change yours with:
+   ```
+   chmod 600 airmanjoe.key
+   ```
 8. SSH into your battlespace with the following: 
-   `ssh -i airmanjoe.key airmanjoe@YOUR IP ADDRESS` substituting the IP given to you 
-   at the registration table for `YOUR IP ADDRESS`
+   ```
+   ssh -i airmanjoe.key airmanjoe@YOUR IP ADDRESS
+   ``` 
+   substituting the IP given to you for your battle space. 
 9. You are welcome to have more than one person signed into your battlespace at 
-   a time
+   a time.
 
 ### Useful linux tips
 ### `man`

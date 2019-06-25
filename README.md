@@ -33,7 +33,7 @@ for that command (for example, `man ls` shows you the manual for the `ls`
 command).
 * You can search a man page by typing `/` followed by the words you are looking for.
 * `n` will take you to the next occurence of your last search
-* `p` will take you to the previous occurence of your last serach
+* `p` will take you to the previous occurence of your last search
 * `q` will exit out of the man page
 
 Each challenge provides you with a list of possibly helpful linux commands.  

@@ -45,8 +45,8 @@ Arthur build the Round Table...
 `history`
 
 ##### Flag 7 - It wasn't me...
-You will need to use the **setuid** program for this challenge.  The next flag 
-is stored in a file named **readme** in airman **Bob's** home directory 
+You will need to use the **setuid** program in your home directory for this challenge.  
+The next flag is stored in a file named **readme** in airman **Bob's** home directory 
 `/home/airmanbob/readme`.
 ###### Helpful commands
 `whoami, cd, ls, cat`

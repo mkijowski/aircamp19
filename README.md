@@ -6,6 +6,7 @@
 2. Stay inside the battle space (10.0.0.0/24)
 3. Do not interfere with other students connecting to the battle space
 4. If you have questions about any of the above, ask your mentor (or room monitor)
+5. Have fun!
 
 ### Getting started
 
@@ -14,16 +15,15 @@
 3. Type `cmd` into the windows run prompt that comes up and hit enter to launch the windows command prompt
 4. Type `bash` into the cmd prompt and then Enter to launch bash for windows
 5. Type `cd ~` then Enter to Change Directory (cd) into your home directory (~)
-6. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command `wget `
+6. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
+   `wget https://raw.githubusercontent.com/cyber-raider/aircamp19/master/airmanjoe.key`
 7. SSH keys wont be trusted if they dont have the correct permissions.  
-   Change yours with `chmod 600 aj.key`
+   Change yours with `chmod 600 airmanjoe.key`
 8. SSH into your battlespace with the following: 
-   `ssh -i aj.key airmanjoe@YOUR IP ADDRESS` substituting the IP given to you 
+   `ssh -i airmanjoe.key airmanjoe@YOUR IP ADDRESS` substituting the IP given to you 
    at the registration table for `YOUR IP ADDRESS`
 9. You are welcome to have more than one person signed into your battlespace at 
    a time
-10. I hope that by now you have [Joined the slack channel](https://join.slack.com/t/cyberraider2018/shared_invite/enQtNDkyMTczMjMzODcyLTFmMjA2MGQzYTIzZjk1MzI1NzYxYjJjMDdjNDhkZWQyOTllZTA1OWI0OTI3OGNjYTIzMDMzOTRhMjMzY2E4YWI)
-11. Have fun!
 
 ### Useful linux tips
 ### `man`

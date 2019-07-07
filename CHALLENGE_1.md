@@ -69,16 +69,3 @@ are the names of the two files with identical contents.
 ###### Helpful commands
 `cd, ls, md5sum, diff`
 
-##### Flag 11 - Talk to me goose... 
-Something on your localhost is listening on port 10000. I wonder what it wants 
-to tell you? 
-###### Helpful commands
-`cat, nc, wget`
-
-##### Flag 12 - Dr. Frasier Crane
-As the good doctor on station 7800 says, I'm listening.  Maybe you should try
-listening to 7800 too, you just may need to wait a minute before you can hear 
-him...
-###### Helpful commands
-`nc`
-

@@ -12,23 +12,42 @@ Use the clues to recover them.
 
 ##### Flag 1 - readme
 The first flag is stored in a file called **readme** located in the home 
-directory `/home/airmanjoe`
-###### Helpful commands
-`cd, ls, cat, head, tail, pwd`
+directory of user airmanjoe: `/home/airmanjoe`.  
 
-##### Flag 2 - 
+You can read it directly if you are already in that directory with `cat readme`,
+otherwise you need to specify the whole path to the file like this: 
+`cat /home/airmanjoe/readme`
+###### Helpful commands
+`cat`
+
+#### Flag 2- /home sweet /home
+The next flag is in a file called ** readme** but this file is "up" one directory in `/home`.  You can get there any number of ways:
+1. `cd /home`
+2. ```
+   cd /
+   cd home
+   ```
+3. Or, if you are still in `/home/airmanjoe` you can go up one directory with:
+   `cd ../`
+
+If you get lost check the folder you are in with `pwd`.  You can always go back 
+to your home directory with `cd /home/airmanjoe` or with a shortcut `cd ~`
+###### Helpful commands
+`cd, ls, cat, pwd`
+
+##### Flag 3 - 
 The second flag is stored in a file called **-** located in the home 
 directory `/home/airmanjoe` 
 ###### Helpful commands
-`cd, ls, cat, file, du`
+`cat`
 
-##### Flag 3 - space
+##### Flag 4 - space
 Flag 3 is stored in a file called **spaces in this filename** in the home 
 directory `~/`
 ###### Helpful commands
 `cd, ls, cat, file`
 
-##### Flag 4 - hidden
+##### Flag 5 - hidden
 The next flag is stored in a hidden file in the **hidden** directory.
 Some helpful hints:
 * `pwd` will show you what directory you are currently in
@@ -37,33 +56,33 @@ Some helpful hints:
 ###### Helpful commands
 `cd, ls, cat, file, find`
 
-##### Flag 5 - execute
+##### Flag 6 - execute
 This flag is output when you run the **execute_me** program in the home directory.
 Hint: executing programs from your home directory is a little different, you
 need to tell linux *where* the program is...
 ###### Helpful commands
 `cd, ls, cat, file, ./`
 
-##### Flag 6 - A History Lesson
+##### Flag 7 - A History Lesson
 Do you know your **history**?  Check and see if you can find who helped King 
 Arthur build the Round Table...
 ###### Helpful commands
 `history`
 
-##### Flag 7 - It wasn't me...
+##### Flag 8 - It wasn't me...
 You will need to use the **setuid** program in your home directory for this challenge.  
 The next flag is stored in a file named **readme** in airman **Bob's** home directory 
 `/home/airmanbob/readme`.
 ###### Helpful commands
 `whoami, cd, ls, cat`
 
-##### Flag 8 - lost
+##### Flag 9 - lost
 This flag is hidden somewhere in the **lost** directory in a file that is 
 exactly 503 bytes.
 ###### Helpful commands
 `cd, ls, cat, file, find, du`
 
-##### Flags 9 & 10 - alike
+##### Flags 10 & 11 - alike
 Two files in the **alike** directory have the same contents.  These two flags
 are the names of the two files with identical contents.
 ###### Helpful commands

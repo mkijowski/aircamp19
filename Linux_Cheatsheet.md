@@ -1,9 +1,5 @@
 # Linux: Terminal Cheat Sheet
-It's dangerous to go alone.  Take this:
-
-o()xxxx[{:::::::::::::::::::::::::::::>
-
-Note: this is a brief list of usefull commands, later challenges will introduce
+Note: this is a brief list of useful commands, later challenges will introduce
 other commands but these will always be helpful (especially the `man` command!)
 
 #### System commands
@@ -20,13 +16,9 @@ These commands will help you learn more about the system you are signed into.
 
 #### File System commands
 A critical part of all operating systems is the file system.  The file system
-stores all of the data on a computer in files in folders.  While you may be 
-more familiar with the Microsoft Windows graphical way of moving around in a 
-file system, cyber security experts prefer the command line because of the 
-immense power it gives them once they become accustomed to it.
-
-That being said it takes some time to get used to moving around via the command
-line.  These commands will help you navigate the file system:
+stores all of the data on a computer in files in folders.  It takes some time 
+Getting used to moving around a file system via the command line so we have
+put together these basic commands to help you navigate the file system:
 * `ls` - list files and folders in current directory
 * `ls -l` - list files and folders in current directory and show their 
   permissions, size, ownership, etc.
@@ -45,6 +37,20 @@ line.  These commands will help you navigate the file system:
 * `cat [FILE]` - output the contents of the file
 * `less [FILE]` - output the contents of the file one page at a time
 * `touch [FILE]` - create an empty file
+
+##### Common folders and paths in Linux
+These are some common paths in the linux file system.  You can use these with
+the above `cd` and `ls` commands to find out more about the file system.  For
+example: `ls /home` will show you the contents of the `/home` directory.
+
+* `/home/airmanjoe` - Airman Joe's home folder.  This should be the folder you
+  are in when you first sign into your system.
+* `/home` - directory containing all user owned files.  Each user of the 
+  system will have their own folder inside of this folder.  You can get here
+  from Airman Joe's home directory with either `cd /home` OR with `cd ..`
+* `/` - the **root** directory, all other files and folders are inside this
+  directory.
+
 
 #### Shortcuts
 * `ctrl+c` - stop the currently running command

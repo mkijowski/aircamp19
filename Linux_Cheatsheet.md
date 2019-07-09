@@ -56,5 +56,7 @@ example: `ls /home` will show you the contents of the `/home` directory.
 * `ctrl+c` - stop the currently running command
 * `ctrl+a` - go to beginning of the line
 * `ctrl+e` - go to the end of the line
-* `&#8593;` - show previously ran command
+* `ctrl+p` - show previously ran command (also you can use the *up arrow* key)
+* `ctrl+n` - show the next command that was run (you can use the *down arrow*
+  key here)
  

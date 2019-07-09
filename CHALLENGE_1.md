@@ -64,7 +64,7 @@ need to tell linux *where* the program is...
 `cd, ls, cat, ./`
 
 ##### Flag 7 - A History Lesson
-Do you know your **history**?  Check and see if you can find who helped King 
+Do you know your **history**?  Check and see if you can find which Knight helped King 
 Arthur build the Round Table...
 ###### Helpful commands
 `history`

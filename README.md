@@ -9,25 +9,24 @@
 ### Getting started
 
 1. Get your battle space IP address from one of your room's mentors.
-2. Launch bash for windows by first typing *WindowsKey + R*
-3. Type `cmd` into the windows run prompt that comes up and hit enter to launch the windows command prompt
-4. Type `bash` into the cmd prompt and then Enter to launch bash for windows
-5. Type `cd ~` then Enter to Change Directory (cd) into your home directory (~)
-6. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
+2. Launch *MobaXterm* from the desktop
+3. Start a *Ubuntu WSL* terminal
+4. Type `cd ~` then Enter to Change Directory (cd) into your home directory (~)
+5. Download the SSH private key [Airman Joe's SSH key](airmanjoe.key) with the following command 
    ```
    wget https://raw.githubusercontent.com/cyber-raider/aircamp19/master/airmanjoe.key
    ```
-7. SSH keys wont be trusted if they dont have the correct permissions.  
+6. SSH keys wont be trusted if they dont have the correct permissions.  
    Change yours with:
    ```
    chmod 600 airmanjoe.key
    ```
-8. SSH into your battlespace with the following: 
+7. SSH into your battlespace with the following: 
    ```
    ssh -i airmanjoe.key airmanjoe@YOUR IP ADDRESS
    ``` 
    substituting the IP given to you for your battle space. 
-9. You are welcome to have more than one person signed into your battlespace at 
+8. You are welcome to have more than one person signed into your battlespace at 
    a time.
 
 ### Useful linux tips

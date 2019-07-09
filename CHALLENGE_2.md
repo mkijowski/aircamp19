@@ -27,7 +27,8 @@ As the good doctor on station 7800 says, I'm listening.  Maybe you should try
 listening to 7800 too, you just may need to wait a minute before you can hear
 him...
 ###### Helpful commands
-`nc, man nc`  **Remember, you can search the man page with `/`** 
+`nc, man nc`  
+*Remember, you can search the man page with `/`* 
 
 
 #### Port 80 - Lair of the spider

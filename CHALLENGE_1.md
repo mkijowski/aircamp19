@@ -36,32 +36,32 @@ to your home directory with `cd /home/airmanjoe` or with a shortcut `cd ~`
 `cd, ls, cat, pwd`
 
 ##### Flag 3 - 
-The second flag is stored in a file called **-** located in the home 
+The next flag is stored in a file called **-** located in the home 
 directory `/home/airmanjoe` 
 ###### Helpful commands
 `cat`
 
 ##### Flag 4 - space
-Flag 3 is stored in a file called **spaces in this filename** in the home 
+This flag is stored in a file called **spaces in this filename** in the home 
 directory `~/`
 ###### Helpful commands
-`cd, ls, cat, file`
+`cd, ls, cat`
 
 ##### Flag 5 - hidden
-The next flag is stored in a hidden file in the **hidden** directory.
+The flag is stored in a hidden file in the **hidden** directory.
 Some helpful hints:
 * `pwd` will show you what directory you are currently in
 * `cd ../` will change directory one level up
 * `cd ~` will go back to your home directory ('/home/airmanjoe')
 ###### Helpful commands
-`cd, ls, cat, file, find`
+`cd, ls, man, cat`
 
 ##### Flag 6 - execute
 This flag is output when you run the **execute_me** program in the home directory.
 Hint: executing programs from your home directory is a little different, you
 need to tell linux *where* the program is...
 ###### Helpful commands
-`cd, ls, cat, file, ./`
+`cd, ls, cat, ./`
 
 ##### Flag 7 - A History Lesson
 Do you know your **history**?  Check and see if you can find who helped King 
@@ -74,17 +74,17 @@ You will need to use the **setuid** program in your home directory for this chal
 The next flag is stored in a file named **readme** in airman **Bob's** home directory 
 `/home/airmanbob/readme`.
 ###### Helpful commands
-`whoami, cd, ls, cat`
+`whoami, cat`
 
 ##### Flag 9 - lost
 This flag is hidden somewhere in the **lost** directory in a file that is 
 exactly 503 bytes.
 ###### Helpful commands
-`cd, ls, cat, file, find, du`
+`cat, find, man`
 
 ##### Flags 10 & 11 - alike
 Two files in the **alike** directory have the same contents.  These two flags
 are the names of the two files with identical contents.
 ###### Helpful commands
-`cd, ls, md5sum, diff`
+`md5sum, diff`
 

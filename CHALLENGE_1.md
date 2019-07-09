@@ -23,12 +23,9 @@ otherwise you need to specify the whole path to the file like this:
 #### Flag 2- /home sweet /home
 The next flag is in a file called ** readme** but this file is "up" one directory in `/home`.  You can get there any number of ways:
 1. `cd /home`
-2. ```
-   cd /
-   cd home
-   ```
+2. `cd /` to go to the root directory, followed by `cd home`
 3. Or, if you are still in `/home/airmanjoe` you can go up one directory with:
-   `cd ../`
+   `cd ..`
 
 If you get lost check the folder you are in with `pwd`.  You can always go back 
 to your home directory with `cd /home/airmanjoe` or with a shortcut `cd ~`
